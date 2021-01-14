@@ -115,9 +115,6 @@ b1 <- 0.0112916
 se_b0 = 0.122707
 se_b1 = 0.0008184
 
-beta0_t <- 5.248
-beta0_margin <- 1.96 * beta0_se
-(beta0_95 <- c(beta0 - beta0_margin, beta0 + beta0_margin))
 # (a) Find a 95% confidence interval for the start-up time, i.e., b0.
 # Compute the lower range of 95% confidence interval
 tval <- qt(1-0.05/2,30-2)
