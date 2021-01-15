@@ -68,4 +68,7 @@ t_val_for_b0_head > tval
 predict(M1,data.frame(x = 400000),interval="prediction",level=0.95)
 # fit        lwr        upr
 #  399637.5  359832.8   439442.2
+
+par(mfrow = c(2, 2))
+plot(M1)
 detach(Playbill)
