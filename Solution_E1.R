@@ -1,6 +1,4 @@
-setwd("E:\00. Cao hoc\01. Mo hinh hoa thong ke\01. Data - code R\01. Linear")
-
-#dev.off ()
+setwd("#Input_your_environment_path")
 
 # Box office ticket sales for plays on Broadway in New York
 # consider the data for the week October 11-17, 2004 (current week).
@@ -31,9 +29,6 @@ abline(M1,lwd=3,col="red")
 
 # a) Find a 95% CI for the slope of the regression model, b1. 
 # Is 1 a plausible value for b1? Reason to support your answer?
-# A: Yes, because we are 95% sure that the value of b1 is somewhere  
-# between 0.95 and 1.01
-# CI - Confident Interval 95%
 confint(M1)
 #                 2.5 %        97.5 %
 # (Intercept) -1.424433e+04    27854.099443
